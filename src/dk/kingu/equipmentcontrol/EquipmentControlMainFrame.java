@@ -84,7 +84,7 @@ public class EquipmentControlMainFrame extends JFrame implements ComponentListen
 		contentPane.add(splitPane, BorderLayout.CENTER);
 		
 		Dimension minimumSize = new Dimension(100, 50);
-		Font textFont = new Font("Dialog", Font.PLAIN, 24);
+		Font textFont = new Font("Dialog", Font.PLAIN, 80);
 		Font countFont = new Font("Dialog", Font.PLAIN, 150);
 		Border panelBorder = new EmptyBorder(50, 5, 5, 5);	
 		Border labelBorder = new EmptyBorder(5, 5, 25, 5);
