@@ -16,6 +16,12 @@ public class PlaceHolder {
 		return "" + value;
 	}
 	
+	public void reset() {
+		value = new Integer(0);
+	}
 	
+	public void setValue(Integer value) {
+		this.value = value;
+	}
 
 }
